@@ -1,0 +1,47 @@
+.background-container {
+    background-image: url("../../images/desk-header 1.png");
+}
+
+.header {
+    padding-top: 19px;
+
+    @include tab (767px) {
+        padding-top: 36px;
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 112px;
+    @include tab (767px) {
+        flex-direction: row;
+        gap: 0px;
+    }
+    @include desc (1199px) {
+        margin: 0 auto;
+    }
+}
+
+.auth-list {
+    display: flex;
+    gap: 9px;
+    @include tab (767px) {
+        margin-left: auto;
+    }
+}
+
+.auth-list-link {
+    font-family: Montserrat;
+    font-size: 13.99px;
+    font-weight: 700;
+    line-height: 17.05px;
+    text-align: center;
+    color: #fff;
+}
+.carent  {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 11px 5px;
+}

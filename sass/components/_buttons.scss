@@ -1,0 +1,22 @@
+.hero-btn {
+    width: 282px;
+    height: 43px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    background-color: #FF4E50;
+    font-family: 'Montserrat' sans-serif;
+    text-wrap: nowrap;
+    justify-content: center;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+    @include tab (767px) {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    @include desc (1199px) {
+        margin-top: 33px;
+    }
+}

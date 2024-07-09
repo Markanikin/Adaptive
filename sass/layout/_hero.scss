@@ -1,0 +1,40 @@
+
+.hero {  
+    padding-top: 22px;
+    padding-bottom: 138px;
+    @include tab (767px) {
+        padding-top: 126px;
+        padding-bottom: 233px;
+    }
+}
+
+
+.hero-title {
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    @include tab (767px) {
+        font-size: 52px;
+        line-height: 63px;
+    }
+    @include desc (1199px) {
+        margin:0 auto;
+        max-width: 508px;
+        display: block;
+    }
+}
+.hero-text {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    @include tab (767px) {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
